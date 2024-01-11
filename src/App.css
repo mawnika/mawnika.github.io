@@ -1,0 +1,163 @@
+
+@font-face {
+  font-family: "Bitstream Iowan Old Style";
+  src: url("https://db.onlinewebfonts.com/t/bc28028bf5fff883c167bfe77545594d.eot");
+  src: url("https://db.onlinewebfonts.com/t/bc28028bf5fff883c167bfe77545594d.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/bc28028bf5fff883c167bfe77545594d.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/bc28028bf5fff883c167bfe77545594d.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/bc28028bf5fff883c167bfe77545594d.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/bc28028bf5fff883c167bfe77545594d.svg#Bitstream Iowan Old Style")format("svg");
+}
+
+* {
+  font-family: "Bitstream Iowan Old Style", Georgia, 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  background-color: #EFEDEC;
+ }
+
+ .home {
+  margin: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+ }
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 150%;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+
+.name-logo {
+  color: #F53D3D;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  flex-flow:flex-start;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+}
+
+.nav-link, .nav-space {
+  display: inline;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: black;
+}
+
+nav {
+  min-width: 10rem;
+  display: flex;
+  flex-direction: flex-start;
+  flex-direction: row;
+  row-gap: 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  background-color: #ffffff;
+  max-height: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.roles {
+  display: block;
+}
+
+.home-hero-content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: last baseline;
+  gap: 5rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.mo-actual-image{
+  max-width: 20vw;
+  border-radius: 80% / 70%;
+}
+
+
+.customer-journey-analytics {
+  margin: 3rem;
+}
+
+.logo {
+  height: 4rem;
+  width: 4rem;
+  pointer-events: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  flex-flow:flex-start;
+  row-gap: 3rem;
+  align-items: center;
+  width: 60%;
+  height: auto;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.App-link {
+  color: rgb(131, 0, 167);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Reaction states */
+.reaction-state1 {
+  color: purple;
+}
+
