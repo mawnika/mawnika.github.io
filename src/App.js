@@ -21,13 +21,13 @@ function App() {
       <section className='home-hero-content'>
         
         <div className='hero-content'>
-          <h2 className='hero-text'>A product designer that likes to do
+          <h2 className='hero-text'>A product designer that likes to do 
             <span style={{color: 'black',
               fontSize: 40,
               fontFamily: 'Iowan Old Style',
               fontWeight: '700',
               whiteSpace: 'normal'}}>
-              something, something and something.
+              {' '}something, something and something.
             </span>  
           </h2>
 
